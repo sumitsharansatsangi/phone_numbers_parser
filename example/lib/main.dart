@@ -41,7 +41,6 @@ void main(List<String> arguments) {
   print('formatted: $formattedNsn'); // 202-555-0119
   print('international: ${phoneNumber.international}' );
   // Ranges
-  print('');
   print('Ranges:');
   final first = PhoneNumber.parse('+33 655 5705 00');
   final last = PhoneNumber.parse('+33 655 5705 03');
