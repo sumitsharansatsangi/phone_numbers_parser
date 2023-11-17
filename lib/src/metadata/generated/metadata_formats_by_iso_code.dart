@@ -1976,7 +1976,7 @@ const metadataFormatsByIsoCode = <IsoCode, PhoneMetadataFormats>{
     PhoneMetadataFormat(
       pattern: r"(\d{4})(\d{4})",
       nationalPrefixFormattingRule: null,
-      leadingDigits: ["[2-7]"],
+      leadingDigits: ["[2-8]"],
       format: r"$1 $2",
       intlFormat: null,
     ),

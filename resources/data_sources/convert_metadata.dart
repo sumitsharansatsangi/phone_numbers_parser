@@ -4,8 +4,17 @@ import 'dart:io';
 import 'xml_to_json.dart';
 
 void main() async {
+  await fetchXMLFile();
   await convertXMLToJson();
   await convertPhoneNumberMetadata();
+}
+
+Future<void> fetchXMLFile()async{
+  final httpClient =  HttpClient();
+  final request = await httpClient.getUrl(Uri.parse('https://raw.githubusercontent.com/google/libphonenumber/master/resources/PhoneNumberMetadata.xml'));
+  final response = await request.close();
+  await response.pipe(File('resources/data_sources/PhoneNumberMetadata.xml').openWrite()); 
+  httpClient.close();
 }
 
 /// reads the phone number metadata from the ios library phoneNumberKit
