@@ -14,7 +14,6 @@ This will change the metadata to a format the library can understand easier
 ```
 dart resources/data_sources/convert_metadata.dart
 ```
-
 ## 2. Generate Files
 
 This is the final step to turn the Metadata into Dart Files.
