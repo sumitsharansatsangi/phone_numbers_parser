@@ -1040,7 +1040,7 @@ const metadataByIsoCode = {
     isoCode: IsoCode.LT,
     leadingDigits: null,
     internationalPrefix: r"00",
-    nationalPrefix: r"8",
+    nationalPrefix: r"0",
     isMainCountryForDialCode: false,
   ),
   IsoCode.LU: PhoneMetadata(
