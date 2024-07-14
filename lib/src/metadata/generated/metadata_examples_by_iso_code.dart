@@ -232,7 +232,7 @@ const metadataExamplesByIsoCode = {
   ),
   IsoCode.DK: PhoneMetadataExamples(
     fixedLine: r"32123456",
-    mobile: r"32123456",
+    mobile: r"34412345",
   ),
   IsoCode.DM: PhoneMetadataExamples(
     fixedLine: r"7674201234",
@@ -616,7 +616,7 @@ const metadataExamplesByIsoCode = {
   ),
   IsoCode.MX: PhoneMetadataExamples(
     fixedLine: r"2001234567",
-    mobile: r"12221234567",
+    mobile: r"2221234567",
   ),
   IsoCode.MY: PhoneMetadataExamples(
     fixedLine: r"323856789",
