@@ -99,8 +99,8 @@ const metadataExamplesByIsoCode = {
     mobile: r"79561234",
   ),
   IsoCode.BJ: PhoneMetadataExamples(
-    fixedLine: r"20211234",
-    mobile: r"90011234",
+    fixedLine: r"0120211234",
+    mobile: r"0195123456",
   ),
   IsoCode.BL: PhoneMetadataExamples(
     fixedLine: r"590271234",
@@ -643,7 +643,7 @@ const metadataExamplesByIsoCode = {
     mobile: r"381234",
   ),
   IsoCode.NG: PhoneMetadataExamples(
-    fixedLine: r"18040123",
+    fixedLine: r"2033123456",
     mobile: r"8021234567",
   ),
   IsoCode.NI: PhoneMetadataExamples(

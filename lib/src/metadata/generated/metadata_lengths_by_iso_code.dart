@@ -124,8 +124,8 @@ const metadataLenghtsByIsoCode = {
   ),
   IsoCode.BJ: PhoneMetadataLengths(
     general: [],
-    mobile: [8],
-    fixedLine: [8],
+    mobile: [8, 10],
+    fixedLine: [8, 10],
   ),
   IsoCode.BL: PhoneMetadataLengths(
     general: [],
@@ -195,7 +195,7 @@ const metadataLenghtsByIsoCode = {
   IsoCode.CD: PhoneMetadataLengths(
     general: [],
     mobile: [7, 9],
-    fixedLine: [7, 9],
+    fixedLine: [7, 8, 9, 10],
   ),
   IsoCode.CF: PhoneMetadataLengths(
     general: [],
@@ -240,7 +240,7 @@ const metadataLenghtsByIsoCode = {
   IsoCode.CO: PhoneMetadataLengths(
     general: [],
     mobile: [10],
-    fixedLine: [10],
+    fixedLine: [8, 10],
   ),
   IsoCode.CR: PhoneMetadataLengths(
     general: [],
@@ -614,7 +614,7 @@ const metadataLenghtsByIsoCode = {
   ),
   IsoCode.LA: PhoneMetadataLengths(
     general: [],
-    mobile: [9, 10],
+    mobile: [10],
     fixedLine: [8],
   ),
   IsoCode.LB: PhoneMetadataLengths(
@@ -805,7 +805,7 @@ const metadataLenghtsByIsoCode = {
   IsoCode.NG: PhoneMetadataLengths(
     general: [],
     mobile: [10],
-    fixedLine: [7, 8, 10],
+    fixedLine: [8, 10],
   ),
   IsoCode.NI: PhoneMetadataLengths(
     general: [],
@@ -885,7 +885,7 @@ const metadataLenghtsByIsoCode = {
   IsoCode.PM: PhoneMetadataLengths(
     general: [],
     mobile: [6, 9],
-    fixedLine: [6],
+    fixedLine: [6, 9],
   ),
   IsoCode.PR: PhoneMetadataLengths(
     general: [],

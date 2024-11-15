@@ -1,7 +1,7 @@
 /// Support for doing something awesome.
 ///
 /// More dartdocs go here.
-library phone_number_parser;
+library;
 
 export 'src/models/phone_number_type.dart';
 export 'src/models/phone_number.dart';
