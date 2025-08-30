@@ -16,7 +16,7 @@ class PhoneMetadata {
   final bool isMainCountryForDialCode;
 
   const PhoneMetadata({
-    required this.countryCode,
+    required this.countryCode,// phoneCode
     required this.isoCode,
     required this.internationalPrefix,
     required this.nationalPrefix,
